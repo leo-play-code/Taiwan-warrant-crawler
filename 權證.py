@@ -15,7 +15,7 @@ python_path=os.getcwd()+'/data'
 def get_option(mode,sell_target):
     '''
     mode (str): 'buy' = 認購權證 or 'sell' = 認售權證
-    sell_target (float) = 如果純認售就用'' 如果要對沖認購的部位
+    sell_target (float) = 如果純認售就用'' 如果要對沖認購的部位填寫目標價格
     '''
     # 直接從下載的csv拿資料
     # 獲取頁面中的所有權證資料並且找出優秀的
