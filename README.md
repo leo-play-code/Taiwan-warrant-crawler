@@ -1,5 +1,6 @@
 # Taiwan-warrant-crawler
 ## Introduction:
+* 篩選標的：台指期
 * Used for find all warrant today and filter it
 * This use 差槓比 as a filter
 * 差槓比 = 買賣價差比/槓桿 越小越好
