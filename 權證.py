@@ -249,15 +249,8 @@ def get_option(mode,sell_target):
             with open(python_path+"/權證對沖.csv","a") as fd:
                 writer = csv.writer(fd)
                 writer.writerow(['代號','名稱','買價','賣價','流通比例','履約價','行使比例','theta','delta','剩餘日','實質槓桿','價差比','差槓比','時間損失率','比例','資金','翻倍率'])
-            
-
-
-    print(len(stock_id_box))
     with concurrent.futures.ThreadPoolExecutor(max_workers=10) as executor:
         executor.map(get_data, stock_id_box)
-    # for data in stock_id_box:
-    #     get_data(data)
 
 
-# 找權證
 
