@@ -11,7 +11,8 @@
 * Download ChormeDriver https://chromedriver.chromium.org/downloads find the version match to your google chrome version
 * Put ChromeDriver into data folder
 * Open Terminal and cd to the folder path
-* run  ```python3 main.py```  in Terminal
+* ```pip install -r requirements.txt```
+* ```python3 main.py``` 
 
 ## Others:
 * If you want to change the filter method go into 權證.py to modify the code
